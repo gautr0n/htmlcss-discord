@@ -2,8 +2,95 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: green;
 }
 
-body{
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+/*header*/
+header{
+    background-color: aqua;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.introduction{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 200px;
+    min-height: 300px;
+}
+
+.nav-bar{
+    margin: 0px 10px;
+
+}
+
+.logo{
+    height: auto;
+    width: 100px;
+}
+
+/*main*/
+.paragraph{
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
     background-color: red;
+}
+
+.odd-paragraph{
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+
+.description{
+    padding-left: 150px;
+}
+
+.p-img{
+    height: 250px;
+}
+
+.last-paragraph{
+    padding: 100px;
+    display: flex;
+    flex-flow: column;
+    background-color: orange;
+    align-items: center;
+    min-width: 600px;
+}
+
+.last-paragraph :not(:first-child){
+    margin-bottom: 30px;
+}
+
+/*footer*/
+footer{
+    background-color: aqua;
+}
+
+.footer{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    
+}
+.border{
+    border-top: 2px solid black;
 }
