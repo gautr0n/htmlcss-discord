@@ -15,6 +15,22 @@ h1{
     padding: 50px 20px;
 }
 
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{  
+    line-height: 28px;
+}
+
+button{
+    border-color: transparent;
+    font-weight: bold;
+}
 
 /*utilities*/
 
@@ -26,11 +42,6 @@ h1{
 .logo{
     height: auto;
     width: 130px;
-}
-
-.button{
-    border-color: transparent;
-    font-weight: bold;
 }
 
 .side-button{    
@@ -46,6 +57,11 @@ h1{
 
 .bg-bk{
     background-color: #23272A;
+    color: white;
+}
+
+.bg-purple{
+    background-color: #8EA1E1;
     color: white;
 }
 
@@ -90,43 +106,51 @@ header{
 
 /*main*/
 .paragraph{
-    padding: 100px 200px;
+    padding: 200px;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: white;
 }
 
 .odd-paragraph{
-    padding: 100px 200px;
+    padding: 200px;
     display: flex;
+    flex-flow: row-reverse;
     align-items: center;
-    background-color: orange;
-}
-
-.description{
-    padding-left: 150px;
-}
-
-.p-img{
-    height: 250px;
+    background-color: #F6F6F6;
 }
 
 .last-paragraph{
-    padding: 100px;
+    padding: 200px;
     display: flex;
     flex-flow: column;
-    background-color: orange;
     align-items: center;
-    min-width: 600px;
+    background-color: #F6F6F6;
+}
+
+.description{
+    padding: 0 100px;
+}
+
+.p-img{
+    height: 400px;
+}
+
+.l-img{
+    height: 700px;
 }
 
 .last-paragraph :not(:first-child){
     margin-bottom: 30px;
 }
 
+.description h2, .last-paragraph h2{
+    padding-bottom: 25px;
+}
+
 /*footer*/
 footer{
-    background-color: aqua;
+    background-color: #23272A;
 }
 
 .footer{
